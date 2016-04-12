@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/cloudfoundry-incubator/spiff/yaml"
+	"github.com/hippotized/spiff/yaml"
 )
 
 func func_ip(op func(ip net.IP, cidr *net.IPNet) net.IP, arguments []interface{}, binding Binding) (yaml.Node, EvaluationInfo, bool) {

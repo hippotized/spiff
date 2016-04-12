@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cloudfoundry-incubator/spiff/debug"
-	"github.com/cloudfoundry-incubator/spiff/yaml"
+	"github.com/hippotized/spiff/debug"
+	"github.com/hippotized/spiff/yaml"
 )
 
 type helperNode struct{}

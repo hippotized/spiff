@@ -6,9 +6,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cloudfoundry-incubator/spiff/debug"
-	"github.com/cloudfoundry-incubator/spiff/dynaml"
-	"github.com/cloudfoundry-incubator/spiff/yaml"
+	"github.com/hippotized/spiff/debug"
+	"github.com/hippotized/spiff/dynaml"
+	"github.com/hippotized/spiff/yaml"
 )
 
 func Flow(source yaml.Node, stubs ...yaml.Node) (yaml.Node, error) {

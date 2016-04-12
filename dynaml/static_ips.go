@@ -5,7 +5,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/cloudfoundry-incubator/spiff/yaml"
+	"github.com/hippotized/spiff/yaml"
 )
 
 var (

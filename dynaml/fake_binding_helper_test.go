@@ -3,7 +3,7 @@ package dynaml
 import (
 	"strings"
 
-	"github.com/cloudfoundry-incubator/spiff/yaml"
+	"github.com/hippotized/spiff/yaml"
 )
 
 type FakeBinding struct {
